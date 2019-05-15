@@ -1,0 +1,60 @@
+body {
+  background-image: linear-gradient(#ff77b8, #ffe586);
+  background-attachment: fixed;
+}
+
+.terminal {
+  margin-top: 150px;
+}
+
+
+.block {
+  width: 800px;
+  height: 400px;  
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  background-color: #FFFFFF;
+  border: 0px solid red;
+  border-radius: 0px 0px 7px 7px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0,.3);
+}
+
+
+.bar {
+background-color: #e4e4e4;
+color: #030303;
+width: 840px;
+text-align: center;
+margin: auto;
+clear: both; 
+font-size: 100%;
+border-radius: 7px 7px 0px 0px;
+border-bottom: 1px solid #7e7e7e;  
+}
+
+
+#dots {
+margin: 5px;
+}
+
+#dots1 {
+  width: 15px;
+  height: 15px;
+  background: #ff615c;
+  border-radius: 50%
+}
+
+#dots2 {
+  width: 15px;
+  height: 15px;
+  background: #ffbc47;
+  border-radius: 50%
+}
+
+#dots3 {
+  width: 15px;
+  height: 15px;
+  background: #00c850;
+  border-radius: 50%
+}
