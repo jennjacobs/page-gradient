@@ -33,7 +33,11 @@ body {
 }
 
 .terminal-title {
-  text-align: center;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 #dots {
@@ -58,4 +62,12 @@ body {
 
 .green {
   background: #00c850;
+}
+
+.house {
+  background-image: url("/Users/jennifer/Projects/page-gradient/images/Home.png");
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
 }
