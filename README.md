@@ -2,4 +2,4 @@
 
 startpage with gradient
 
-<img scr="https://github.com/jennjacobs/page-gradient/blob/master/page-gradient.png">
+<img src="https://github.com/jennjacobs/page-gradient/blob/master/page-gradient.png">
