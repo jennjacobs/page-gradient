@@ -9,11 +9,13 @@ body {
 
 .block {
   width: 800px;
-  height: 400px;
+  height: 320px;
   padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
   text-align: center;
   margin: auto;
-  background-color: #ffffff;
+  background-color: #000000;
   border: 0px solid red;
   border-radius: 0px 0px 7px 7px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -30,14 +32,6 @@ body {
   border-radius: 7px 7px 0px 0px;
   border-bottom: 1px solid #7e7e7e;
   display: flex;
-}
-
-.terminal-title {
-  position: absolute;
-  top: 18%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
 }
 
 #dots {
@@ -64,14 +58,6 @@ body {
   background: #00c850;
 }
 
-.house {
-  background-image: url("/Users/jennifer/Projects/page-gradient/images/Home.png");
-  width: 20px;
-  height: 20px;
-  margin: 0;
-  padding: 0;
-}
-
 .column {
   float: left;
   width: 22%;
@@ -83,4 +69,64 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+/* unvisited link */
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #ff77b8;
+}
+
+/* mouse over link */
+a:hover {
+  -webkit-animation: zomg 2.5s infinite;
+  animation: zomg 2.5s infinite;
+}
+
+@-webkit-keyframes zomg {
+  0%,
+  100% {
+    color: #ff77b8;
+  }
+  16% {
+    color: #ffe586;
+  }
+  32% {
+    color: #7ccdea;
+  }
+  48% {
+    color: #ff77b8;
+  }
+  64% {
+    color: #ffe586;
+  }
+  80% {
+    color: #7ccdea;
+  }
+}
+@keyframes zomg {
+  0%,
+  100% {
+    color: #ff77b8;
+  }
+  16% {
+    color: #ffe586;
+  }
+  32% {
+    color: #7ccdea;
+  }
+  48% {
+    color: #ff77b8;
+  }
+  64% {
+    color: #ffe586;
+  }
+  80% {
+    color: #7ccdea;
+  }
 }
